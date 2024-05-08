@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+   <center><table cellspacing="20">
+      <thead>
+          <tr>
+              <th>
+               <p>คุณสามารถเลื่อนไปยังข้อถัดไปโดยคลิกที่ลิ้งค์:</p>
+              </th>
+              <th>
+               <a href="question.html">ถัดไป</a>
+              </th>
+          </tr>
+      </thead>
+     
+   <div class="quiz-container">
+       <h1></h1>
+       <p id="question">PIM ย่อมาจากอะไร ?</p>
+       <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+       <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+       <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+       <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+       <p id="result"></p>
+   </div>
+
+
+   
+ 
+
+  <!-- <div class="quiz-container">
+      <h1></h1>
+      <p id="question">วิทยาาลัยเทคโนโลยีบริหารธุรกิจรักไทย มีจำนวนสาขาทั้งหมดกี่สาขา ?</p>
+      <button class="button" onclick="checkAnswer('a')">A) 12 สาขา</button>
+      <button class="button" onclick="checkAnswer('b')">B) 11 สาขา</button>
+      <button class="button" onclick="checkAnswer('c')">C) 14 สาขา</button>
+      <button class="button" onclick="checkAnswer('d')">D) 13 สาขา</button>
+      <p id="result"></p>
+  </div>-->
+
+   <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
